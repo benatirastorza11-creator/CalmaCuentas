@@ -541,3 +541,4 @@ html.big main{zoom:1.14}
 .cc-fab{background:var(--blue-600)}.cc-fab:hover{background:var(--blue-700)}.cc-fab-ic{background:rgba(255,255,255,.18)}
 @media(max-width:560px){.kicker{font-size:11.5px;letter-spacing:.06em}}
 .tt-link{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.2);border-radius:999px;padding:8px 14px}.tt-link:hover{text-decoration:none!important;background:rgba(255,255,255,.08)}
+.motto{margin:28px 0;padding:22px 26px;border-left:4px solid var(--blue-600);background:var(--blue-50);border-radius:0 16px 16px 0;font:700 22px/1.45 var(--head);color:var(--navy-900)}.author .av{font-size:19px}.byline .av{font-size:16px}
