@@ -1,0 +1,28 @@
+ASISTENTE DE DUDAS — CÓMO FUNCIONA
+
+El asistente (botón «¿Dudas? Pregúntame», abajo a la derecha) tiene dos modos:
+
+1) BÚSQUEDA INTELIGENTE (por defecto, gratis)
+   Funciona en cualquier hosting sin hacer nada. Busca en las 30 guías y en las
+   páginas de la web, responde con el fragmento más útil y enlaza a la guía.
+
+2) CON IA (opcional, de pago por uso)
+   Responde con frases propias, entiende preguntas más complejas y recuerda la
+   conversación, pero SIEMPRE usando solo el contenido de tu web.
+   Requisitos: hosting con PHP 7.4+ y la extensión cURL (casi todos la tienen).
+   Pasos:
+     a) Crea una cuenta y una clave en https://console.anthropic.com
+     b) Pon un límite de gasto mensual en la consola (recomendado).
+     c) Mejor opción: guarda la clave como variable de entorno ANTHROPIC_API_KEY
+        en el panel del hosting. Si tu hosting no lo permite, pégala en
+        api/config.php, en la línea CC_API_KEY.
+     d) Revisa en api/config.php el nombre del modelo (CC_MODEL) en
+        https://docs.claude.com/en/docs/about-claude/models
+     e) Abre la web: en la cabecera del asistente pondrá «Con IA».
+   Los límites (preguntas por visitante y por día) están en api/config.php
+   para que el gasto no se dispare.
+
+IMPORTANTE
+- Nunca compartas tu clave ni la subas a un repositorio público.
+- Si activas la IA, las preguntas de los visitantes se envían a Anthropic para
+  generar la respuesta. La política de privacidad de la web ya lo indica.

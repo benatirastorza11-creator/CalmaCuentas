@@ -1,0 +1,7 @@
+Fuentes incluidas en esta web (todas de uso libre, se pueden incrustar y redistribuir):
+- Poppins — SIL Open Font License 1.1 (The Poppins Project Authors)
+- Inter / Inter Display — SIL Open Font License 1.1 (The Inter Project Authors)
+- Lora — SIL Open Font License 1.1 (The Lora Project Authors)
+- TeX Gyre Adventor / TeX Gyre Heros Cn — GUST Font License (GUST e-foundry)
+- DejaVu Sans Mono — Licencia libre de las fuentes DejaVu (basada en Bitstream Vera)
+Más información: https://openfontlicense.org · https://www.gust.org.pl/projects/e-foundry
